@@ -17,7 +17,7 @@ const caseStudies = [
     tags: ["UX Audit", "Research", "Strategy"],
     image: "/Media/uxaudit.jpg",
     gradient: "from-purple-500/20 to-blue-500/20",
-    link: "",
+    link: "https://drive.google.com/drive/folders/1V72icW4rzW33XryCv4gasP56nyVcjSdG?usp=sharing",
   },
   {
     title: "Aegion Dynamic Website",
