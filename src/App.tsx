@@ -22,7 +22,7 @@ export default function App() {
           <div
             className="absolute inset-0 -z-10 pointer-events-none"
             style={{
-              backgroundImage: "url('/src/Media/background image.png')",
+              backgroundImage: "url('/Media/backgroundimage.png')",
               backgroundRepeat: 'repeat',
               backgroundSize: 'auto',
               backgroundPosition: 'top left',

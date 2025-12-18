@@ -62,7 +62,7 @@ export function Testimonials() {
               e.currentTarget.play();
             }}
           >
-            <source src="/src/Media/Client Testimonials.mp4" type="video/mp4" />
+            <source src="/Media/Client Testimonials.mp4" type="video/mp4" />
           </video>
           
           {/* Overlay to ensure text readability */}

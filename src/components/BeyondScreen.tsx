@@ -3,32 +3,32 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const galleryItems = [
   {
-    image: "/src/Media/Achievements.jpeg",
+    image: "/Media/achievements.jpeg",
     title: "Achievements",
     description: "Youth Parliament Winner, Multiple Hackathon Awards, Design Competition Recognition",
   },
   {
-    image: "/src/Media/Community leadership.jpeg",
+    image: "/Media/communityleadership.jpeg",
     title: "Community Leadership",
     description: "Marketing and Social Media Lead at GFG LIET, Event Organizer, Mentor for Junior Designers",
   },
   {
-    image: "/src/Media/Creative arts.jpeg",
+    image: "/Media/creativearts.jpeg",
     title: "Creative Arts",
     description: "Acrylic Painting , Digital Illustration, Visual Storytelling, Brand Identity Exploration",
   },
   {
-    image: "/src/Media/Mobile photography.jpeg",
+    image: "/Media/mobilephotography.jpeg",
     title: "Mobile Photography",
     description: "Capturing moments through the lens, exploring visual storytelling and composition with mobile photography",
   },
   {
-    image: "/src/Media/Hackathon Participation.jpeg",
+    image: "/Media/hackathonparticipation.jpeg",
     title: "Hackathon Participant & Finalist",
     description: "Competed in 10+ hackathons and tech events, securing finalist positions through innovative solutions and collaborative problem-solving",
   },
   {
-    image: "/src/Media/Writing ans Storytelling.jpeg",
+    image: "/Media/writingandstorytelling.jpeg",
     title: "Writing & Storytelling",
     description: "Creative Writing, Content Creation, Documenting the design journey",
   },
@@ -71,7 +71,7 @@ export function BeyondScreen() {
               e.currentTarget.play();
             }}
           >
-            <source src="/src/Media/BeyoundScreen.mp4" type="video/mp4" />
+            <source src="/Media/beyoundScreen.mp4" type="video/mp4" />
           </video>
           
           {/* Overlay to ensure text readability */}

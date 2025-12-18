@@ -5,9 +5,9 @@ const skillCategories = [
     title: "Design Tools",
     skills: [
       { name: "Figma", icon: "figma", isCustom: false },
-      { name: "Miro", icon: "/src/Media/miro-icon.png", isCustom: true },
+      { name: "Miro", icon: "/Media/miroicon.png", isCustom: true },
       { name: "Notion", icon: "notion", isCustom: false },
-      { name: "Canva", icon: "/src/Media/canva-icon.png", isCustom: true },
+      { name: "Canva", icon: "/Media/canvaicon.png", isCustom: true },
       { name: "Adobe XD", icon: "xd", isCustom: false },
       { name: "Photoshop", icon: "photoshop", isCustom: false },
       { name: "Illustrator", icon: "illustrator", isCustom: false }
@@ -28,9 +28,9 @@ const skillCategories = [
   {
     title: "Platforms",
     skills: [
-      { name: "WIX Studio", icon: "/src/Media/wix-icon.png", isCustom: true },
+      { name: "WIX Studio", icon: "/Media/wixicon.png", isCustom: true },
       { name: "Webflow", icon: "webflow", isCustom: false },
-      { name: "Framer", icon: "/src/Media/framer-icon.png", isCustom: true },
+      { name: "Framer", icon: "/Media/framericon.png", isCustom: true },
       { name: "WordPress", icon: "wordpress", isCustom: false }
     ],
   },
@@ -73,7 +73,7 @@ export function Skills() {
               e.currentTarget.play();
             }}
           >
-            <source src="/src/Media/Skills Backround.mp4" type="video/mp4" />
+            <source src="/Media/skillsbackround.mp4" type="video/mp4" />
           </video>
           
           {/* Overlay to ensure text readability */}

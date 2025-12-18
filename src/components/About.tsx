@@ -19,7 +19,7 @@ export function About() {
           {/* Background Image inside the box */}
           <div className="absolute inset-0 w-full h-full">
             <img
-              src="/src/Media/About me background.png"
+              src="/Media/aboutmebackground.png"
               alt="Background"
               className="w-full h-full object-cover"
             />
@@ -49,7 +49,7 @@ export function About() {
                 {/* Image container */}
                 <div className="relative h-full rounded-lg overflow-hidden" style={{ border: '4px solid #ffffffc4' }}>
                   <ImageWithFallback
-                    src="/src/Media/About Me.jpeg"
+                    src="/Media/aboutme.jpeg"
                     alt="About Akshaya Sri"
                     className="w-full h-full object-cover"
                   />

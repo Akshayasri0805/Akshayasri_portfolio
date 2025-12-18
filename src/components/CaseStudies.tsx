@@ -7,7 +7,7 @@ const caseStudies = [
     title: "Designing a Design Tool",
     description: "Creating an intuitive design tool that empowers Scientists with Microfluidics Chip Design.",
     tags: ["Product Design", "UX / UI", "Interaction Design"],
-    image: "/src/Media/Designing a Design Tool.png",
+    image: "/Media/designingadesigntool.png",
     gradient: "from-purple-500/20 via-blue-500/20 to-purple-500/20",
     link: "https://medium.com/idea-factory/designing-a-design-tool-458f60ecbd4d",
   },
@@ -15,7 +15,7 @@ const caseStudies = [
     title: "UX Audit for a Major Indian Bank",
     description: "Comprehensive audit and redesign recommendations for digital banking experience.",
     tags: ["UX Audit", "Research", "Strategy"],
-    image: "/src/Media/UX Audit.jpg",
+    image: "/Media/uxaudit.jpg",
     gradient: "from-purple-500/20 to-blue-500/20",
     link: "",
   },
@@ -23,7 +23,7 @@ const caseStudies = [
     title: "Aegion Dynamic Website",
     description: "End-to-end design and development of a modern, performant web presence.",
     tags: ["Design", "WIX Studio", "Branding"],
-    image: "/src/Media/Aegion Dynamic Website.png",
+    image: "/Media/aegiondynamicwebsite.png",
     gradient: "from-blue-500/20 to-purple-500/20",
     link: "https://www.aegiondynamic.com/",
   },
@@ -60,7 +60,7 @@ export function CaseStudies() {
               e.currentTarget.play();
             }}
           >
-            <source src="/src/Media/Casestudies background.mp4" type="video/mp4" />
+            <source src="/Media/casestudiesbackground.mp4" type="video/mp4" />
           </video>
           
           {/* Overlay to ensure text readability */}

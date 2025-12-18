@@ -3,19 +3,19 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const galleryItems = [
   {
-    image: "/src/Media/Social media creative.png",
+    image: "/Media/socialmediacreative.png",
     title: "Social Media Creatives",
     category: "Graphic Design",
     link: "https://www.instagram.com/p/DNmqNGaJkkt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
-    image: "/src/Media/Client portfolio Website.png",
+    image: "/Media/clientportfoliowebsite.png",
     title: "Client Portfolio Website",
     category: "Web Development",
     link: "https://tasneem-ojha.vercel.app/",
   },
   {
-    image: "/src/Media/Video marketing.png",
+    image: "/Media/videomarketing.png",
     title: "Marketing Video",
     category: "Video Editing",
     link: "https://drive.google.com/file/d/1N09MwrKW5tFKzZISpOp9IOShsWGjCbum/view?usp=drive_link",
@@ -53,7 +53,7 @@ export function VisualGallery() {
               e.currentTarget.play();
             }}
           >
-            <source src="/src/Media/Visual Gallery background.mp4" type="video/mp4" />
+            <source src="/Media/visualgallerybackground.mp4" type="video/mp4" />
           </video>
           
           {/* Overlay to ensure text readability */}

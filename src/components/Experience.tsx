@@ -65,7 +65,7 @@ export function Experience() {
               e.currentTarget.play();
             }}
           >
-            <source src="/src/Media/Experience background.mp4" type="video/mp4" />
+            <source src="/Media/experiencebackground.mp4" type="video/mp4" />
           </video>
           
           {/* Overlay to ensure text readability */}
